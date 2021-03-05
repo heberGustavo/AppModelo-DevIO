@@ -27,6 +27,8 @@ namespace DevIO.UI.AppModelo
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseStaticFiles(); //Chama os arquivos estaticos, CSS e JS
+
             app.UseMvc(routes => 
             {
                 routes.MapRoute("default","{controller=Home}/{action=Index}/{id?}");
