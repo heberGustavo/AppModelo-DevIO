@@ -32,6 +32,9 @@ namespace DevIO.UI.AppModelo
             app.UseMvc(routes => 
             {
                 routes.MapRoute("default","{controller=Home}/{action=Index}/{id?}");
+
+                //Necessario para usar AREAS
+                routes.MapRoute("areas","{area:exists}/{controller=Home}/{action=Index}/{id?}");
             });
 
             app.UseRouting();
