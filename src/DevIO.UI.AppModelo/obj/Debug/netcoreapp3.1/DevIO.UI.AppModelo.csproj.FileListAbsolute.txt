@@ -174,3 +174,4 @@ C:\Users\Usuario\Desktop\projetos_heber\cursos\desenvolvedor\AppModelo-DevIO\src
 C:\Users\Usuario\Desktop\projetos_heber\cursos\desenvolvedor\AppModelo-DevIO\src\DevIO.UI.AppModelo\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Usuario\Desktop\projetos_heber\cursos\desenvolvedor\AppModelo-DevIO\src\DevIO.UI.AppModelo\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Usuario\Desktop\projetos_heber\cursos\desenvolvedor\AppModelo-DevIO\src\DevIO.UI.AppModelo\obj\Debug\netcoreapp3.1\Razor\Areas\Produtos\Views\Cadastro\Index.cshtml.g.cs
+C:\Users\Usuario\Desktop\projetos_heber\cursos\desenvolvedor\AppModelo-DevIO\src\DevIO.UI.AppModelo\obj\Debug\netcoreapp3.1\Razor\Areas\Produtos\Views\_ViewStart.cshtml.g.cs
