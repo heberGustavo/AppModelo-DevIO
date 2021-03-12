@@ -1,3 +1,4 @@
+using DevIO.UI.AppModelo.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -13,8 +14,6 @@ namespace DevIO.UI.AppModelo
 {
     public class Startup
     {
-        // This method gets called by the runtime. Use this method to add services to the container.
-        // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
             services.Configure<RazorViewEngineOptions>(options => {
@@ -23,10 +22,13 @@ namespace DevIO.UI.AppModelo
                 options.AreaPageViewLocationFormats.Add("/Modulos/{2}/Views/Shared/{0}.cshtml");
                 options.AreaPageViewLocationFormats.Add("/Views/Shared/{0}.cshtml");
             });
-            services.AddMvc(options => options.EnableEndpointRouting = false).SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_2);
+            services.AddControllersWithViews(options => options.EnableEndpointRouting = false).SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_2);
+            services.AddRazorPages();
+
+            //Injeção de dependencia
+            services.AddTransient<IPedidoRepository, PedidoRepository>();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -41,7 +43,6 @@ namespace DevIO.UI.AppModelo
                 routes.MapRoute("default","{controller=Home}/{action=Index}/{id?}");
 
                 //Necessario para usar AREAS
-
                 routes.MapRoute("areas", "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 
                 //routes.MapAreaRoute("AreaProdutos", "Produtos", "Produtos/{controller=Cadastro}/{action=Index}/{id?}");
