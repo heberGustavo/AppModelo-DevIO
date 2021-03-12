@@ -92,7 +92,6 @@ C:\Users\Usuario\Desktop\projetos_heber\cursos\desenvolvedor\AppModelo-DevIO\src
 C:\Users\Usuario\Desktop\projetos_heber\cursos\desenvolvedor\AppModelo-DevIO\src\DevIO.UI.AppModelo\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Usuario\Desktop\projetos_heber\cursos\desenvolvedor\AppModelo-DevIO\src\DevIO.UI.AppModelo\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Usuario\Desktop\projetos_heber\cursos\desenvolvedor\AppModelo-DevIO\src\DevIO.UI.AppModelo\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
-C:\Users\Usuario\Desktop\projetos_heber\cursos\desenvolvedor\AppModelo-DevIO\src\DevIO.UI.AppModelo\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\Usuario\Desktop\projetos_heber\cursos\desenvolvedor\AppModelo-DevIO\src\DevIO.UI.AppModelo\obj\Debug\netcoreapp3.1\DevIO.UI.AppModelo.RazorTargetAssemblyInfo.cache
 C:\Users\Usuario\Desktop\projetos_heber\cursos\desenvolvedor\AppModelo-DevIO\src\DevIO.UI.AppModelo\obj\Debug\netcoreapp3.1\DevIO.UI.AppModelo.RazorTargetAssemblyInfo.cs
 C:\Users\Usuario\Desktop\projetos_heber\cursos\desenvolvedor\AppModelo-DevIO\src\DevIO.UI.AppModelo\obj\Debug\netcoreapp3.1\DevIO.UI.AppModelo.Views.pdb
@@ -173,5 +172,8 @@ C:\Users\Usuario\Desktop\projetos_heber\cursos\desenvolvedor\AppModelo-DevIO\src
 C:\Users\Usuario\Desktop\projetos_heber\cursos\desenvolvedor\AppModelo-DevIO\src\DevIO.UI.AppModelo\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Usuario\Desktop\projetos_heber\cursos\desenvolvedor\AppModelo-DevIO\src\DevIO.UI.AppModelo\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Usuario\Desktop\projetos_heber\cursos\desenvolvedor\AppModelo-DevIO\src\DevIO.UI.AppModelo\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Usuario\Desktop\projetos_heber\cursos\desenvolvedor\AppModelo-DevIO\src\DevIO.UI.AppModelo\obj\Debug\netcoreapp3.1\Razor\Areas\Produtos\Views\Cadastro\Index.cshtml.g.cs
-C:\Users\Usuario\Desktop\projetos_heber\cursos\desenvolvedor\AppModelo-DevIO\src\DevIO.UI.AppModelo\obj\Debug\netcoreapp3.1\Razor\Areas\Produtos\Views\_ViewStart.cshtml.g.cs
+C:\Users\Usuario\Desktop\projetos_heber\cursos\desenvolvedor\AppModelo-DevIO\src\DevIO.UI.AppModelo\obj\Debug\netcoreapp3.1\Razor\Modulos\Produtos\Views\Cadastro\Index.cshtml.g.cs
+C:\Users\Usuario\Desktop\projetos_heber\cursos\desenvolvedor\AppModelo-DevIO\src\DevIO.UI.AppModelo\obj\Debug\netcoreapp3.1\Razor\Modulos\Produtos\Views\_ViewStart.cshtml.g.cs
+C:\Users\Usuario\Desktop\projetos_heber\cursos\desenvolvedor\AppModelo-DevIO\src\DevIO.UI.AppModelo\obj\Debug\netcoreapp3.1\Razor\Modulos\Vendas\Views\Pedidos\Index.cshtml.g.cs
+C:\Users\Usuario\Desktop\projetos_heber\cursos\desenvolvedor\AppModelo-DevIO\src\DevIO.UI.AppModelo\obj\Debug\netcoreapp3.1\Razor\Modulos\Vendas\Views\_ViewStart.cshtml.g.cs
+C:\Users\Usuario\Desktop\projetos_heber\cursos\desenvolvedor\AppModelo-DevIO\src\DevIO.UI.AppModelo\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
